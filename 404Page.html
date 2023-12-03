@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <header class="header">
+      <div class="container">
+        <div class="row mt-2 justify-content-center align-items-center">
+          <div class="col-md-1 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+            >
+              <path
+                d="M6.875 10.625H33.125M6.875 30.625H33.125H6.875ZM6.875 20.625H33.125H6.875Z"
+                stroke="#0D0D0D"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div
+            class="col-md-2 offset-4 d-flex align-items-center justify-content-center"
+          >
+            <div class="logo-wrapper">
+              <h1 class="logo">Beauty</h1>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="5"
+                height="5"
+                viewBox="0 0 5 5"
+                fill="none"
+              >
+                <circle cx="2.5" cy="2.5" r="2.5" fill="#0D0D0D" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-1 offset-4 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="34"
+              height="34"
+              viewBox="0 0 34 34"
+              fill="none"
+            >
+              <path
+                d="M22.8429 9.5625C22.5826 13.0734 19.9211 15.9375 16.9992 15.9375C14.0773 15.9375 11.4111 13.0741 11.1554 9.5625C10.8898 5.91016 13.4797 3.1875 16.9992 3.1875C20.5187 3.1875 23.1086 5.97656 22.8429 9.5625Z"
+                stroke="#0D0D0D"
+                stroke-width="1.6875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.0002 20.1875C11.2228 20.1875 5.35915 23.375 4.27407 29.3914C4.14325 30.1166 4.55364 30.8125 5.31266 30.8125H28.6877C29.4473 30.8125 29.8577 30.1166 29.7269 29.3914C28.6412 23.375 22.7775 20.1875 17.0002 20.1875Z"
+                stroke="#0D0D0D"
+                stroke-width="1.6875"
+                stroke-miterlimit="10"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="row mt-1 p-3 border-top justify-content-center">
+          <div class="col-md offset-2">
+            <div class="link-section-wrapper">
+              <a class="header-link" href="products.html">Shop All</a>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="link-section-wrapper">
+              <a class="header-link" href="productCard.html">Product card</a>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="link-section-wrapper">
+              <a class="header-link" href="AboutUs.html">About us</a>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="link-section-wrapper">
+              <a class="header-link" href="404Page.html">404 Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row text-center mt-5 pt-5">
+          <div class="col-md">
+            <h1 class="error">Error 404</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="сol-md text-center d-flex flex-column align-items-center">
+            <img class="errorImg" src="content/img/img.png" alt="errorPic" />
+            <p class="error-message mt-5">
+              Oops, The page you are looking for might be removed or is
+              temporarily unavailable. Try going back to the previous page or
+              see our Help Center for more information
+            </p>
+            <button onclick="returnToHome()" class="homepageBtn mt-4">
+              Return to Homepage
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

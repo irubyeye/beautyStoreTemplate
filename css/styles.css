@@ -1,0 +1,569 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.logo {
+  color: #0d0d0d;
+  display: inline-block;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1125rem;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.00563rem;
+}
+
+.header-link:hover {
+  color: rgb(128, 128, 128);
+}
+
+.visit-card-wrapper {
+  background: #fdf2ea;
+  height: 42.125rem;
+}
+
+.visit-card-main {
+  color: #3f2b1e;
+  margin-top: 13.75rem;
+  text-align: center;
+  font-family: Cabinet Grotesk;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+}
+
+.visit-card-sub {
+  width: 19.5rem;
+  margin-left: 1.1rem;
+  color: #0d0d0d;
+  text-align: center;
+  font-family:
+    General Sans,
+    serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  letter-spacing: 0.005rem;
+}
+
+.visit-picture-big {
+  margin-top: 6.31rem;
+  width: 24.375rem;
+  height: 32.5rem;
+}
+
+.visit-picture-small {
+  margin-top: 11.38rem;
+  width: 16.875rem;
+  height: 18.4375rem;
+}
+
+.visit-button-text {
+  display: inline-block;
+  color: #47362b;
+  text-align: center;
+  font-family: General Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.00563rem;
+}
+
+.visit-button-wrapper {
+  margin-top: 2rem;
+  padding-left: 2.5rem;
+}
+
+.visit-button-wrapper:hover {
+  cursor: pointer;
+}
+
+.visit-button-text {
+  position: relative;
+  left: 25px;
+}
+
+.arrow {
+  position: relative;
+  left: 2rem;
+}
+
+.products-header {
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0225rem;
+}
+
+.products-subheader {
+  margin: 0;
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.025rem;
+}
+
+.product-photo {
+  width: 22rem;
+  height: 24.1875rem;
+}
+
+.product-name {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0d0d0d;
+  font-family:
+    General Sans,
+    serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.product-description {
+  color: #0d0d0d;
+  font-family:
+    General Sans,
+    serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscription {
+  color: #0d0d0d;
+  margin-bottom: 0.5rem;
+  font-family:
+    General Sans,
+    serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.photo-list {
+  width: 19.1875rem;
+  height: 19.8125rem;
+  flex-shrink: 0;
+}
+
+.order-button {
+  background: #fff;
+  width: 13.875rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #828282;
+}
+
+.category-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: url("../content/img/Rectangle 22.png");
+  width: 18.375rem;
+  height: 22.9375rem;
+}
+
+.category-2 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: url("../content/img/Rectangle 74.png");
+  width: 18.375rem;
+  height: 22.9375rem;
+}
+
+.category-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: url("../content/img/Rectangle 75.png");
+  width: 18.375rem;
+  height: 22.9375rem;
+}
+
+.category-4 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: url("../content/img/Rectangle 76.png");
+  width: 18.375rem;
+  height: 22.9375rem;
+}
+
+.category-name {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  height: 5.125rem;
+}
+
+.category-name:hover {
+  cursor: pointer;
+}
+
+.category-text {
+  display: inline-block;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: General Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.left-logo {
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0225rem;
+  margin-right: 0.5rem;
+}
+
+.about-header {
+  margin-top: 0.75rem;
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+}
+
+.about-subheader {
+  color: #000;
+  margin-top: 1rem;
+  font-family: General Sans;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  letter-spacing: 0.01063rem;
+}
+
+.about-wrapper {
+  background: #fdf2ea;
+}
+
+.footer-wrapper {
+  background: #0d0d0d;
+  width: 100%;
+  height: 22rem;
+}
+
+.reversed {
+  color: #f8f8f8;
+}
+
+.email-text {
+  margin-top: 1.56rem;
+  color: #f8f8f8;
+  font-family:
+    General Sans,
+    serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0.05313rem;
+}
+
+.email-input {
+  background: transparent;
+  color: #fff;
+  padding-left: 1rem;
+  width: 18.1875rem;
+  height: 3.125rem;
+  border-radius: 0.125rem;
+  border: 1px solid #f8f8f8;
+  font-family: General Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 144.444% */
+  letter-spacing: 0.05625rem;
+}
+
+.email-button {
+  background: transparent;
+  margin-left: 0.5rem;
+  color: #fff;
+  width: 6.8125rem;
+  height: 3.125rem;
+  border-radius: 0.125rem;
+  border: 1px solid #f8f8f8;
+  font-family: General Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.00563rem;
+}
+
+.contact-us {
+  color: #f8f8f8;
+  font-family: General Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+}
+
+.shop-page-name {
+  color: #0d0d0d;
+  display: inline-block;
+  font-family: General Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.amount {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.filter-wrapper {
+}
+
+.filter-text {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+}
+
+.more {
+  color: #fff;
+  margin-top: 1.94rem;
+  width: 12.5625rem;
+  height: 3.5rem;
+  border-radius: 0.125rem;
+  background: #0d0d0d;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.error {
+  color: #5f504b;
+  font-family: General Sans;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.error-message {
+  width: 34.5625rem;
+  color: #424242;
+  text-align: center;
+  font-family: General Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6875rem; /* 168.75% */
+  letter-spacing: 0.005rem;
+}
+
+.homepageBtn {
+  color: #fff;
+  text-align: center;
+  font-family: General Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 0.125rem;
+  background: #0d0d0d;
+  width: 18.1875rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+}
+
+.card-mainPhoto {
+  width: 36.6875rem;
+  height: 40.4375rem;
+  flex-shrink: 0;
+}
+
+.tag-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.tag-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.005rem;
+  width: 6.9375rem;
+  height: 2.875rem;
+  border-radius: 0.3125rem;
+  border: 1.46px solid #f3ecda;
+  background: #f3ecda;
+}
+
+.tag-2 {
+  margin-left: 0.81rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.005rem;
+  width: 6.9375rem;
+  height: 2.875rem;
+  border-radius: 0.3125rem;
+  border: 1.46px solid #f5e4e3;
+  background: #f5e4e3;
+}
+
+.name-product-wrapper {
+  margin-top: 1rem;
+}
+
+.main-text {
+  color: #0d0d0d;
+  text-align: left;
+  font-family: General Sans;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0225rem;
+}
+
+.subtext {
+  color: var #0d0d0d;
+  font-family: General Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.005rem;
+}
+
+.description-wrapper {
+  margin-top: 2.44rem;
+}
+
+.description-main {
+  color: #0d0d0d;
+  font-family: General Sans;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.035rem;
+}
+
+.description-body {
+  color: var(--black, #0d0d0d);
+  text-align: justify;
+  font-family: General Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: 0.01rem;
+}
+
+.order-block {
+  margin-top: 2.7rem;
+  display: flex;
+}
+
+.amount-input {
+  text-align: center;
+  padding-left: 1rem;
+  width: 5.1875rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border-radius: 0.125rem;
+  border: 1px solid #0d0d0d;
+}
+
+.spec-burron {
+  width: 30.6875rem;
+  margin-left: 1.7rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border-radius: 0.125rem;
+  background: #0d0d0d;
+  color: #f8f8f8;
+  text-align: center;
+  font-family: General Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.00563rem;
+}
+
+.sect-photo {
+  width: 29.625rem;
+  height: 43.5rem;
+  flex-shrink: 0;
+}
+
+.about-text-main {
+  color: #000;
+  text-align: center;
+  font-family: General Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
